@@ -16,6 +16,6 @@ spec:
         - name: nexus-regcred
       containers:
         - name: petclinic
-        image: 10.0.13.79/petclinic:latest
+          image: 10.0.13.79/petclinic:latest
           ports:
             - containerPort: 8080
