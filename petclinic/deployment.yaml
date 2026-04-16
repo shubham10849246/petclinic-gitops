@@ -22,7 +22,7 @@ spec:
         - name: ecr-secret
       containers:
         - name: petclinic
-          image: 713332525966.dkr.ecr.ap-south-1.amazonaws.com/petclinic:latest
+          image: 713332525966.dkr.ecr.ap-south-1.amazonaws.com/petclinic:PLACEHOLDER
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
